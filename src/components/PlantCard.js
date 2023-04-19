@@ -9,7 +9,7 @@ function PlantCard() {
       {true ? (
         <button className="primary">In Stock</button>
       ) : (
-        <button>Out of Stock</button>
+        <button type="button">Out of Stock</button>
       )}
     </li>
   );
